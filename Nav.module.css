@@ -1,0 +1,26 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul
+{
+  height: 5vh;
+  width: 100vw;
+  list-style-type: none;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.btn
+{
+  height: 20px;
+  width: 100px;
+  background-color: rgb(89, 199, 89);
+  font-weight: bolder;
+  cursor: pointer;
+}
